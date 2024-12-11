@@ -29,7 +29,6 @@ int main() {
     Current = DLL_GetNodeAt(List, 5);
     NewNode = DLL_CreateNode(4000);
     DLL_InsertBefore(Current, NewNode);
-    
     printf("\nInserting 4000 Before [5]..\n\n");
 
     // 리스트 출력
